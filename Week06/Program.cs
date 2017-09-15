@@ -4,14 +4,12 @@ class Program
 {
     static void Main()
     {
-        int val; // uninitialized variable
-        refMethod(out val);
-        Console.WriteLine(val);
+        sayHello();
         Console.ReadLine();
     }
 
-    static void refMethod(out int i)
+    static void sayHello()
     {
-        i = i + 1;
+        Console.WriteLine("Hello World.");
     }
 }
